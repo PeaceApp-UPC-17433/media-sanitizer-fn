@@ -40,5 +40,6 @@ jobs:
       - uses: Azure/functions-action@c5060b3b8bb1ebbcb531abd00c822ecbaa8ea656 # v1
         with:
           app-name: ${{ vars.FUNCTION_APP_NAME }}
+          sku: flexconsumption
           scm-do-build-during-deployment: true
           enable-oryx-build: true
