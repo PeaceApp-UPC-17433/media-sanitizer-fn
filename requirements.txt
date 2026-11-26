@@ -1,2 +1,2 @@
-azure-functions>=1.21,<2
+azure-functions>=2.4.0,<3
 Pillow>=13,<14
